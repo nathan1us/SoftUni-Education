@@ -12,6 +12,8 @@ function printAndSum(start, end) {
     console.log(`Sum: ${sum}`);
 }
 
+/*
 printAndSum(5, 10);
 printAndSum(0, 26);
 printAndSum(50, 60);
+*/

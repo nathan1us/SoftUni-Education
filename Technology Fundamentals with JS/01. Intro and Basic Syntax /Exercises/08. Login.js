@@ -1,14 +1,14 @@
 function authorize(attempts) {
-    let arr = [ username, try1, try2, try3 ] = attempts;
+    let username = attempts[0];
 
-    for (let i = 1; i < arr.length; i++) {
+    for (let i = 1; i < attempts.length; i++) {
         
-        if (arr[i] === username.split('').reverse().join('')) {
+        if (attempts[i] === username.split('').reverse().join('')) {
             console.log(`User ${username} logged in.`);
             return;
         } else {
 
-            if (i == arr.length - 1) break;
+            if (i == attempts.length - 1) break;
 
             console.log('Incorrect password. Try again.');
         }
