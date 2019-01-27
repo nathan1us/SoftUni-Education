@@ -44,10 +44,6 @@ The **output** should be returned as a result of your function.
 | --- | --- |
 | 2016, 9, 30 | 2016-10-1 |
 
-### Hints
-
-- Use **Date()**
-
 # 04. Reverse String
 
 Write a program which reverses a string and print it on the console.
