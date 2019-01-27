@@ -14,8 +14,6 @@ Under each heading add information about the current heading by putting it in th
 
 **Also you need to place keywords (List, Table, Form) in span elements!**
 
-If you stick to the presentation information. Expected output should be like this one below:
-
 # 03. List/Table/Form stage
 
 Now it&#39;s time to include **lists,** table **and** form **to our HTML. After each paragraph in each** div element create one (h2) Heading with text &#39;Example&#39;. Then we will make one example by following the (h1) Heading:
@@ -28,7 +26,6 @@ List at least two languages by filling out the table.
 # 04. Image stage
 
 Try to find appropriate **icon(**picture**)** for every one heading and insert it **after the examples.**
-See the example below:
 
 # 05. Hyperlink stage
 
