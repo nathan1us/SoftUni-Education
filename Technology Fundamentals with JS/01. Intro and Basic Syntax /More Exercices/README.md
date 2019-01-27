@@ -14,9 +14,9 @@ Receive three numbers and sort them in descending order. Print each number on a 
 
 | **Input** | **Output** |
 | --- | --- |
-| 213 | 321 |
-| -213 | 31-2 |
-| 002 | 200 |
+| 2<br>1<br>3 | 3<br>2<br>1 |
+| -2<br>1<br>3 | 3<br>1<br>-2 |
+| 0<br>0<br>2 | 2<br>0<br>0 |
 
 # 02. English Name of the Last Digit
 
