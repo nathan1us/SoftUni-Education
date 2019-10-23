@@ -65,7 +65,7 @@ class CubeModel {
   }
 
   getCubeById(id) {
-    return this.find(({id: i}) => i === id);
+    return this.find(({id: i}) => i === id).then(res => res[0] || null);
   }
 
   getAllCubes() {

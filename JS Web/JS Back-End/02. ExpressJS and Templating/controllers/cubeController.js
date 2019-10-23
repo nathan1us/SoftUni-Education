@@ -40,7 +40,6 @@ module.exports = {
       const id = +req.params.id;
 
       cubeModel.getCubeById(id).then(cube => {
-        cube = cube[0];
         if (!cube) { res.redirect('/not-found'); return; }
 
         res.render('details.hbs', { cube });
