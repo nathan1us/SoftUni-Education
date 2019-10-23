@@ -1,5 +1,4 @@
-// TODO: Require Controllers...
-const { cubeController, accessoryController } = require('../controllers/index');
+const { cubeController, accessoryController } = require('../controllers');
 
 module.exports = (app) => {
     app.get('/', cubeController.GET.index);
